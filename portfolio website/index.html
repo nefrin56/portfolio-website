@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>p</span>ortfoli<span>o</span></h1>
+                <ol id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()" ></i>
+                </ol>
+                <i class="fas fa-bars" onclick="openmenu()"></i> 
+
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm  <span>Nefrin N.S</span><br> from <span> Chennai </span> </h1>
+            </div>
+        </div>
+    </div>
+</div>
+   <! -----------about---------!>
+    <div id="about" >
+        <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="images/img1.jpeg" alt="">
+              </div>
+              <div class="about-col-2">
+             <h1 class="sub-titles" >About me</h1>
+             <p>I am a passionate web developer with expertise in frontend and backend technologies, particularly Java for backend development. My skills include HTML, CSS, JavaScript, and various frameworks. I enjoy creating user-friendly, responsive websites that deliver seamless experiences. In my spare time, I explore new technologies and contribute to open-source projects.</p>
+             <div class="tab-titles">
+             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+             <p class="tab-links" onclick="opentab('experience')">Expirence</p>
+             <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab"id="skills">
+                <ul>
+                    <li><span>frontend Developer</span><br>Designing web Interfaces</li>
+                    <li><span>web Development</span><br>Designing website and connecting with databases</li>
+                    <li><span>backend Developer</span><br>Connection backend services using spring boot</li>
+                    <li><span>Database Developer</span><br>crud operation,joins,Development</li>
+                </ul>
+             </div>
+             <div class="tab-contents"id="experience">
+                <ul>
+                    <li><span>Internship</span><br>Besant Technologies</li>
+                   
+                </ul>
+             </div>
+             <div class="tab-contents"id="education">
+                <ul>
+                    <li><span>school education</span><br>Bethlahem matric hr.sec School</li>
+                    <li><span>Percentage</span><br>74%</li>
+                    <li><span>College education</span><br>Thanthai periyar government institute of technology</li>
+                    <li><span> Degree</span><br>Bachelor of mechanical engineerig</li>
+                    <li><span>CGpA</span><br>7.76</li>
+                </ul>
+             </div>
+            </div>
+              </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----------------services--------->
+    <div id="services">
+<div class="container">
+    <h1 class="sub-titles" >MyServices</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Web design combines aesthetics and functionality to create visually appealing and user-friendly websites. It involves layout, color schemes, typography, and responsive design, ensuring optimal viewing experiences across devices..</p>
+                <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-browser"></i>
+            <h2>Fullstack Developer</h2>
+            <p>A full-stack developer is proficient in both front-end and back-end technologies. They design, develop, and maintain web applications, ensuring seamless integration of user interfaces, databases, and server-side logic..</p>
+                <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-html5" ></i>
+            <h2>frotend Developer</h2>
+            <p>A frontend developer creates visually appealing and interactive user interfaces for web applications. They utilize HTML, CSS, and JavaScript to ensure responsive design, enhancing user experience across various devices and browsers.
+           </p>
+                <a href="#">learn more</a>
+        </div>
+    </div>
+</div>        
+    </div>
+    <!---------------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titles" >Mywork</h1>
+            <div class="work-list">
+                <div class="work1">
+                    <img src="images/imgbook.png">
+                    <div class="layer">
+                        <h3>Bookstore</h3>
+                        <p>A user-friendly bookstore website showcasing various genres, featuring detailed book listings, reviews, personalized recommendations, seasonal promotions, secure checkout, order tracking, and community engagement through blogs and events.
+
+
+                        </p>
+                        <a href="https://github.com/nefrin56/Bookstore-website-using-spring-Boot.git">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Social media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis temporibus, inventore iusto tempora saepe omnis, pariatur voluptas optio sunt explicabo similique modi? Dolores nesciunt ratione exercitationem ullam? Recusandae architecto saepe doloribus quibusdam, vel reprehenderit quae tenetur quidem cupiditate illum nobis voluptatum, ullam praesentium veniam amet laborum repellat? Nemo, atque quasi.
+
+                        </p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping website</h3>
+                        <p>An intuitive eCommerce website offering a wide range of products, seamless navigation, secure payment options, personalized recommendations, customer reviews, efficient order tracking, and engaging promotions for an enhanced shopping experience.
+                        </p>
+                        <a href="https://github.com/nefrin56/ecomerce-website.git">Link</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------------------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class='fas fa-paper-plane'></i>nsnefrin2002@gmail.com</p>
+                <p><i class='fas fa-phone'></i>9677982529</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-twitter-square" ></i></a>
+                    <a href=""><i class="fab fa-instagram" ></i></a>
+                    <a href=""><i class="fab fa-linkedin"  ></i></a>
+                </div>
+                <a href="images/NEFRIN JAVA FULLSTACK DEVELOPER (2).pdf"download class="btn btn2">Resume</a>
+                </div>
+                <div class="contact-right">
+                  <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                  </form> 
+                  <span id="msg">
+
+                  </span> 
+                </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Developed by Nefrin N.S  <i class="fas fa-heart" ></i></p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+
+    
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";  // Open the menu
+        }
+        
+        function closemenu() {
+            sidemenu.style.right = "-200px";  // Close the menu by moving it off-screen
+        }
+        
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwjNj2XrFKAfn6PUWrf2OH-AaGiTw3_IeA1gCs39Txtu1Cb2hmn3ZmdFSek4nRuKZul/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+           setTimeout(function(){
+            msg.innerHTML =""
+           },10000)
+           form.reset()
+        
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
